@@ -28,7 +28,7 @@ a{
   position: fixed;
   top: 0;
   z-index: 9999;
-  width: $wrap-width;
+  width: 100%;
   height: $top-head-height;
   background: #010101;
   background-image: linear-gradient(90deg, #010101, #898989);
@@ -172,6 +172,7 @@ a{
   position: relative;
   top: $top-head-height + 6;
   margin: 0 0 0 90px;
+  padding-bottom: 170px;
   overflow: hidden;
 }
 .main-list{
@@ -182,6 +183,7 @@ a{
     float: left;
     width: 32.5%;
     height: 552px;
+    overflow: hidden;
     background: #fff;}
   .main-list-img{
     height: 360px;
