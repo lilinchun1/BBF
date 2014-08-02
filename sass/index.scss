@@ -1,26 +1,38 @@
 @charset "UTF-8";
 @import "rest";
+
+$wrap-width:1258px;
+$top-head-height:42px;
 $bgcolor:#f5f5f5;   //背景颜色
 $n-font-color:#000; //默认字体颜色
+$n-font-color2:#999; //默认字体颜色2
 %trans{
   -webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-out 0s;-ms-transition: all .3s ease-in-out 0s;
       -o-transition: all .3s ease-in-out 0s;transition: all .3s ease-in-out 0s;
 } //过度效果
 
 @import "icon1/*.png";
+
 body{
   background: $bgcolor;
   color: $n-font-color;
 }
+a{
+  color: $n-font-color;}
 .wrap{
   margin: 0 auto;
-  width: 1258px;
+  width: $wrap-width;
   overflow: hidden;}
 /*通用头部开始*/
 .top-head {
-  height: 42px;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: $wrap-width;
+  height: $top-head-height;
   background: #010101;
   background-image: linear-gradient(90deg, #010101, #898989);
+  overflow: hidden;
   em {
     padding-left: 16px;
       float: left;
@@ -78,6 +90,7 @@ body{
 
 /*通用尾部开始*/
 .footer {
+  position: relative;
   height: 110px;
   background: #000000;
   overflow: hidden;
@@ -119,3 +132,79 @@ body{
   }
 }
 /*通用尾部结束*/
+
+/*左侧浮动栏*/
+.left-nav {
+  *float: left;
+  position: fixed;
+  z-index: 9999;
+  top: $top-head-height + 8;
+  width: 82px;
+}
+.left-nav-list{
+  li {
+    margin-bottom: 2px;
+    width: 82px;
+    height: 82px;
+    @extend %trans;
+    opacity: .8;
+    &:hover {
+      opacity: 1;
+    }
+  }
+    a {
+      font-size: 2em;
+      line-height: 82px;
+      font-weight: bold;
+      text-align: center;
+      color: #ffffff;
+      height: 82px;
+      display: block;
+    }
+  .first-bk{
+    background: #000;
+  }
+}
+/*左侧浮动栏结束*/
+
+/*首页列表部分*/
+.list-wrap {
+  position: relative;
+  top: $top-head-height + 6;
+  margin: 0 0 0 90px;
+  overflow: hidden;
+}
+.main-list{
+  overflow: hidden;
+  li{
+    position: relative;
+    margin: 0 2px 8px;
+    float: left;
+    width: 32.5%;
+    height: 552px;
+    background: #fff;}
+  .main-list-img{
+    height: 360px;
+    img{
+      width: 100%;}
+  }
+  .main-list-info{
+    position: relative;
+    top: -66px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+    width: 83%;
+    background: #ffffff;
+      header{
+        font-size: 3em;
+      }
+      p{
+        margin: 10px 0;
+        font-size: 14px;
+        line-height: 1.8em;
+        color: $n-font-color2;
+      }
+  }
+}
+/*首页列表部分结束*/
