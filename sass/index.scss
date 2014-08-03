@@ -1,8 +1,9 @@
 @charset "UTF-8";
 @import "rest";
 
-$wrap-width:1258px;
-$top-head-height:42px;
+$wrap-width:1258px; //定宽1258
+$top-head-height:64px;//头部高度
+$top-head-icon-mgt:24px;//头部图标margin高度
 $bgcolor:#f5f5f5;   //背景颜色
 $n-font-color:#000; //默认字体颜色
 $n-font-color2:#999; //默认字体颜色2
@@ -36,8 +37,8 @@ a{
   em {
     padding-left: 16px;
       float: left;
-      font-size: 1.2em;
-      line-height: 3.5em;
+      font-size: 1.8em;
+      line-height: 3.556em;
         a{
           color: #ffffff;}
     }
@@ -47,17 +48,17 @@ a{
   float: right;
     li{
       margin-left: 30px;
-      height: 42px;
+      height: $top-head-height;
       float: right;
       color: #ffffff;
         a{
           color: #ffffff;
-          font-size: 1.2em;
-          line-height: 3.5em;}
+          font-size: 1.6em;
+          line-height: 4em;}
     }
   .gift{
     padding-right: 4px;
-    margin-top: 14px;
+    margin-top: $top-head-icon-mgt;
     float: left;
     width: 16px;
     height: 16px;
@@ -65,7 +66,7 @@ a{
   }
   .more{
     padding-right: 4px;
-    margin-top: 14px;
+    margin-top: $top-head-icon-mgt;
     float: left;
     width: 16px;
     height: 16px;
@@ -75,13 +76,14 @@ a{
     margin-left: 10px;
   }
   .user-pic{
-    margin-top: 4px;
+    margin-top: 14px;
     width: 30px;
     height: 30px;
     border: 2px solid #393939;
     border-radius: 50%;
     background: #ffffff;
     overflow: hidden;
+    a{line-height: 2em;}
       img{
         width: 100%;}
   }
@@ -91,7 +93,7 @@ a{
 /*通用尾部开始*/
 .footer {
   position: relative;
-  height: 110px;
+  height: 168px;
   background: #000000;
   overflow: hidden;
   p {
@@ -102,19 +104,20 @@ a{
       }
   }
   .footer-p1 {
-    margin-top: 20px;
+    margin-top: 28px;
     height: 38px;
-    font-size: 1.2em;
-    line-height: 3em;
+    font-size: 1.4em;
+    line-height: 4em;
   }
   .footer-p2{
-    height: 26px;
-    font-size: 1.2em;
-    line-height: 1em;
+    height: 38px;
+    font-size: 1.4em;
+    line-height: 3em;
   }
   .footer-p3{
+    margin-top: 30px;
     height: 26px;
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 2em;
   }
   .icon-wb {
@@ -143,18 +146,20 @@ a{
 }
 .left-nav-list{
   li {
-    margin-bottom: 2px;
-    width: 82px;
-    height: 82px;
+    margin-bottom: 3px;
+    width: 126px;
+    height: 126px;
     @extend %trans;
     opacity: .8;
+      img{
+        width: 100%;}
     &:hover {
       opacity: 1;
     }
   }
     a {
-      font-size: 2em;
-      line-height: 82px;
+      font-size: 3.4em;
+      line-height: 3.706em;
       font-weight: bold;
       text-align: center;
       color: #ffffff;
@@ -171,7 +176,7 @@ a{
 .list-wrap {
   position: relative;
   top: $top-head-height + 6;
-  margin: 0 0 0 90px;
+  margin: 0 0 0 126px;
   padding-bottom: 170px;
   overflow: hidden;
 }
@@ -210,3 +215,39 @@ a{
   }
 }
 /*首页列表部分结束*/
+
+/*show页 内容部分*/
+.show-wrap{
+  width: 56.25%;
+  overflow: hidden;
+}
+.show-content{
+  position: relative;
+  top: 70px;
+  margin-left: 126px;
+  padding-bottom: 170px;
+  overflow: hidden;
+  h1{
+    margin: 22px 0;
+    font-size: 5.6em;
+    line-height: 1.4em;
+    font-weight: normal;
+  }
+  .price{
+    height: 40px;
+    font-size: 2em;
+    line-height: 2em;
+    color: #cc9966;
+      i{
+        font-family: "Arial";
+      }
+  }
+  p{
+    font-size: 2em;
+    color: #999999;
+    line-height: 1.5em;}
+  img{
+    margin: 10px 0;
+    width: 100%;}
+}
+/*show页 内容部分借宿*/
