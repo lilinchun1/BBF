@@ -7,6 +7,9 @@ $top-head-icon-mgt:24px;//头部图标margin高度
 $bgcolor:#f5f5f5;   //背景颜色
 $n-font-color:#000; //默认字体颜色
 $n-font-color2:#999; //默认字体颜色2
+$n-font-money:#cc9966; //金额颜色
+$main-mgl:138px;  //主体距离左侧距离
+$border-color:#b9bcbe;//输入框颜色
 %trans{
   -webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-out 0s;-ms-transition: all .3s ease-in-out 0s;
       -o-transition: all .3s ease-in-out 0s;transition: all .3s ease-in-out 0s;
@@ -176,7 +179,7 @@ a{
 .list-wrap {
   position: relative;
   top: $top-head-height + 6;
-  margin: 0 0 0 126px;
+  margin-left: $main-mgl;
   padding-bottom: 170px;
   overflow: hidden;
 }
@@ -218,14 +221,15 @@ a{
 
 /*show页 内容部分*/
 .show-wrap{
-  width: 56.25%;
+  position: relative;
+  top: 70px;
+  width: 100%;
+  margin-left: $main-mgl;
+  padding-bottom: 170px;
   overflow: hidden;
 }
 .show-content{
-  position: relative;
-  top: 70px;
-  margin-left: 126px;
-  padding-bottom: 170px;
+  width: 59%;
   overflow: hidden;
   h1{
     margin: 22px 0;
@@ -237,17 +241,134 @@ a{
     height: 40px;
     font-size: 2em;
     line-height: 2em;
-    color: #cc9966;
-      i{
-        font-family: "Arial";
-      }
-  }
+    color:$n-font-money;}
   p{
-    font-size: 2em;
+    font-size: 1.8em;
     color: #999999;
     line-height: 1.5em;}
   img{
     margin: 10px 0;
     width: 100%;}
 }
+.buy-item{
+  position: fixed;
+  top: 72px;
+  right: 0;
+  width: 338px;
+  padding: 12px 15px;
+  min-height: 500px;
+  background: #ffffff;
+}
+.buy-item-tt{
+  height: 100px;
+  overflow: hidden;
+    span{
+      float: left;
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+        img{
+          width: 100%;}
+    }
+    h2{
+      padding-left: 10px;
+      height: 40px;
+      font-size: 2em;
+      font-weight: normal;
+      line-height: 40px;
+      overflow: hidden;}
+    em{
+      float: left;
+      padding-left: 10px;
+      font-size: 1.2em;
+      height: 20px;
+      line-height: 20px;
+      color: $n-font-money;
+    }
+    i{
+      float: left;
+      padding-left: 10px;
+      width: 228px;
+      height: 38px;
+      font-size: 12px;
+      color: #999999;
+      line-height: 1.8em;
+    }
+}
+.buy-form{
+  padding-top: 24px;
+  overflow: hidden;
+  p{
+    margin-bottom: 12px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 1.4em;
+    color: #666666;
+      em{
+        padding-left: 10px;
+        color: $n-font-money;}
+  }
+  .buy-third-p{
+    margin-bottom: 5px;
+  }
+}
+.buy-first-p{
+  label{
+    padding-right: 5px;}
+  .tool {
+    margin: 0 4px;
+    width: 12px;
+    height: 12px;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    font-weight: bolder;
+    display: inline-block;
+    border: 1px solid $border-color;
+    font-family: 'tahoma';
+    cursor: pointer;
+  }
+  .tool2{
+    margin-left: 8px;
+  }
+}
+
+.buy-btn{
+  position: relative;
+  width: 100%;
+  height: 58px;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei";
+  font-weight: normal;
+  background-color: #fa3471;
+    &::before{
+      content: '';
+      width: 25px;
+      height: 24px;
+      position: absolute;
+      top: 18px;
+      left: 50px;
+      display: block;
+      @include icon1-sprite(icon-buy2);
+    }
+}
+.input-tp1 {
+  width: 240px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid $border-color;
+  text-indent: 5px;
+  box-shadow:inset 0 1px 3px #e7e7e7;
+  color: #cccccc;
+}
+.input-tp2{
+  width: 336px;}
+.input-tp3{
+  margin-right: 6px;
+  width: 74px;}
+.input-tp4 {
+  width: 56px;
+}
+
 /*show页 内容部分借宿*/
