@@ -10,7 +10,12 @@ $n-font-color2:#999; //默认字体颜色2
 $n-font-money:#cc9966; //金额颜色
 $main-mgl:138px;  //主体距离左侧距离
 $border-color:#b9bcbe;//输入框颜色
-$aside-li-mgr:9px;
+$aside-li-mgr:9px;  //内容页底部列表margin-right
+%aside-bock-a{
+  display: block;
+  font-size: 1.2em;
+  color: #ffffff;
+}
 %trans{
   -webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-out 0s;-ms-transition: all .3s ease-in-out 0s;
       -o-transition: all .3s ease-in-out 0s;transition: all .3s ease-in-out 0s;
@@ -226,7 +231,7 @@ a{
   top: 70px;
   width: 100%;
   margin-left: $main-mgl;
-  padding-bottom: 170px;
+  padding-bottom: 70px;
   overflow: hidden;
 }
 .show-content{
@@ -415,8 +420,76 @@ a{
   }
 }
 .block-item{
+  margin: 64px auto 170px auto;
   width: 80%;
-  height: 60px;
   overflow: hidden;
+  div{
+    margin-top: 10px;
+    @extend %trans;
+      &:hover{
+        opacity: .9;
+      }
+  }
+  .content{
+    padding: 10px;
+    float: left;
+    width: 170px;
+    height: 40px;
+    background: #d0d0d0;
+      a{
+        display: block;
+        color: #ffffff;
+        font-size: 1.6em;
+      }
+  }
+  .info{
+    margin-left: 9px;
+    float: left;
+    width: 104px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #555555;
+    a{
+      @extend %aside-bock-a;
+      }
+  }
+  .other{
+    margin-left: 9px;
+    float: left;
+    width: 104px;
+    height: 60px;
+    @extend %trans;
+      &:hover{
+        opacity: 1;
+      }
+      p{
+        text-align: center;
+        height: 27px;
+        line-height: 27px;
+        background: #555555;
+          @extend %trans;
+          &:hover{
+            opacity: .9;
+          }
+          a{
+            @extend %aside-bock-a;
+          }
+      }
+    .mgt7{
+      margin-top: 7px;}
+  }
+  .record{
+    margin-left: 9px;
+    float: left;
+    width: 170px;
+    height: 27px;
+    line-height: 27px;
+    background: #555;
+    text-align: center;
+      a{
+        @extend %aside-bock-a;
+      }
+  }
 }
 /*show页 内容部分结束*/
