@@ -10,6 +10,7 @@ $n-font-color2:#999; //默认字体颜色2
 $n-font-money:#cc9966; //金额颜色
 $main-mgl:138px;  //主体距离左侧距离
 $border-color:#b9bcbe;//输入框颜色
+$aside-li-mgr:9px;
 %trans{
   -webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-out 0s;-ms-transition: all .3s ease-in-out 0s;
       -o-transition: all .3s ease-in-out 0s;transition: all .3s ease-in-out 0s;
@@ -252,6 +253,7 @@ a{
 }
 .buy-item{
   position: fixed;
+  z-index: 9999;
   top: 72px;
   right: 0;
   width: 338px;
@@ -370,5 +372,51 @@ a{
 .input-tp4 {
   width: 56px;
 }
-
-/*show页 内容部分借宿*/
+.aside-list-wrap{
+  width: 59%;
+  overflow: hidden;
+}
+.aside-list{
+  overflow: hidden;
+  li{
+    margin-right: $aside-li-mgr;
+    float: left;
+    width: 32.5%;
+    height: 370px;
+    background: #ffffff;
+    &:last-of-type{margin-right: 0;}
+  }
+  .aside-list-last-li{
+    margin-right: 0;
+  }
+  .aside-list-img{
+    height: 234px;
+    img{ width: 100%;}
+  }
+  .aside-list-info{
+    position: relative;
+    top: -44px;
+    padding: 4.7%;
+    margin: 0 5% 0 5%;
+    width: 83%;
+    background: #ffffff;
+      header{
+        font-size: 2em;
+      }
+    .price{
+      padding-top: 10px;
+      font-size: 1.6em;
+      line-height: 1.6em;
+      color:$n-font-money;}
+    p{
+      font-size: 1.2em;
+      line-height: 1.8em;
+      color: $n-font-color2;}
+  }
+}
+.block-item{
+  width: 80%;
+  height: 60px;
+  overflow: hidden;
+}
+/*show页 内容部分结束*/

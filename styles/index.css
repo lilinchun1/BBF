@@ -1,2 +1,524 @@
-*{margin:0;padding:0;border:0}html{font-family:"Microsoft Yahei", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;font-size:62.5%}body{margin:0;height:100%;-webkit-overflow-scrolling:touch}ol,ul,li{list-style-type:none;margin:0;padding:0}a{text-decoration:none}i,em,strong,span,address{font-style:normal}h1,h2{font-size:1.4em}h3,h4{font-size:1.4em}body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;word-wrap:break-word}.cf:before,.cf:after{content:"";display:table}.cf:after{clear:both}.cf{zoom:1}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}.left-nav-list li{-webkit-transition:all .3s ease-in-out 0s;-moz-transition:all .3s ease-in-out 0s;-ms-transition:all .3s ease-in-out 0s;-o-transition:all .3s ease-in-out 0s;transition:all .3s ease-in-out 0s}.icon1-sprite,.nav-item .gift,.nav-item .more,.footer .icon-wb,.footer .icon-wx,.buy-btn::before{background:url('../images/icon1-sacd030e82b.png') no-repeat}body{background:#f5f5f5;color:#000}a{color:#000}.wrap{margin:0 auto;width:1258px;overflow:hidden}.top-head{position:fixed;top:0;z-index:9999;width:100%;height:64px;background:#010101;background-image:linear-gradient(90deg, #010101,#898989);overflow:hidden}.top-head em{padding-left:16px;float:left;font-size:1.8em;line-height:3.556em}.top-head em a{color:#ffffff}.nav-item{padding-right:36px;float:right}.nav-item li{margin-left:30px;height:64px;float:right;color:#ffffff}.nav-item li a{color:#ffffff;font-size:1.6em;line-height:4em}.nav-item .gift{padding-right:4px;margin-top:24px;float:left;width:16px;height:16px;background-position:0 -71px}.nav-item .more{padding-right:4px;margin-top:24px;float:left;width:16px;height:16px;background-position:0 -87px}.nav-item .user-name{margin-left:10px}.nav-item .user-pic{margin-top:14px;width:30px;height:30px;border:2px solid #393939;border-radius:50%;background:#ffffff;overflow:hidden}.nav-item .user-pic a{line-height:2em}.nav-item .user-pic img{width:100%}.footer{position:relative;height:168px;background:#000000;overflow:hidden}.footer p{color:#bbb;text-align:center}.footer p a{color:#bbb}.footer .footer-p1{margin-top:28px;height:38px;font-size:1.4em;line-height:4em}.footer .footer-p2{height:38px;font-size:1.4em;line-height:3em}.footer .footer-p3{margin-top:30px;height:26px;font-size:1.2em;line-height:2em}.footer .icon-wb{width:29px;height:24px;display:inline-block;background-position:0 0}.footer .icon-wx{margin-left:40px;width:32px;height:24px;display:inline-block;background-position:0 -23px}.left-nav{*float:left;position:fixed;z-index:9999;top:72px;width:82px}.left-nav-list li{margin-bottom:3px;width:126px;height:126px;opacity:.8}.left-nav-list li img{width:100%}.left-nav-list li:hover{opacity:1}.left-nav-list a{font-size:3.4em;line-height:3.706em;font-weight:bold;text-align:center;color:#ffffff;height:82px;display:block}.left-nav-list .first-bk{background:#000}.list-wrap{position:relative;top:70px;margin-left:138px;padding-bottom:170px;overflow:hidden}.main-list{overflow:hidden}.main-list li{position:relative;margin:0 2px 8px;float:left;width:32.5%;height:552px;overflow:hidden;background:#fff}.main-list .main-list-img{height:360px}.main-list .main-list-img img{width:100%}.main-list .main-list-info{position:relative;top:-66px;margin-left:5%;margin-right:5%;padding:3%;width:83%;background:#ffffff}.main-list .main-list-info header{font-size:3em}.main-list .main-list-info p{margin:10px 0;font-size:14px;line-height:1.8em;color:#999}.show-wrap{position:relative;top:70px;width:100%;margin-left:138px;padding-bottom:170px;overflow:hidden}.show-content{width:59%;overflow:hidden}.show-content h1{margin:22px 0;font-size:5.6em;line-height:1.4em;font-weight:normal}.show-content .price{height:40px;font-size:2em;line-height:2em;color:#c96}.show-content p{font-size:1.8em;color:#999999;line-height:1.5em}.show-content img{margin:10px 0;width:100%}.buy-item{position:fixed;top:72px;right:0;width:338px;padding:12px 15px;min-height:500px;background:#ffffff}.buy-item-tt{height:100px;overflow:hidden}.buy-item-tt span{float:left;width:100px;height:100px;overflow:hidden}.buy-item-tt span img{width:100%}.buy-item-tt h2{padding-left:10px;height:40px;font-size:2em;font-weight:normal;line-height:40px;overflow:hidden}.buy-item-tt em{float:left;padding-left:10px;font-size:1.2em;height:20px;line-height:20px;color:#c96}.buy-item-tt i{float:left;padding-left:10px;width:228px;height:38px;font-size:12px;color:#999999;line-height:1.8em}.buy-form{padding-top:24px;overflow:hidden}.buy-form p{margin-bottom:12px;height:32px;line-height:32px;font-size:1.4em;color:#666666}.buy-form p em{padding-left:10px;color:#c96}.buy-form .buy-third-p{margin-bottom:5px}.buy-first-p label{padding-right:5px}.buy-first-p .tool{margin:0 4px;width:12px;height:12px;font-size:10px;line-height:12px;text-align:center;font-weight:bolder;display:inline-block;border:1px solid #b9bcbe;font-family:'tahoma';cursor:pointer}.buy-first-p .tool2{margin-left:8px}.buy-btn{position:relative;width:100%;height:58px;font-size:20px;color:#ffffff;font-family:"Microsoft Yahei";font-weight:normal;background-color:#fa3471}.buy-btn::before{content:'';width:25px;height:24px;position:absolute;top:18px;left:50px;display:block;background-position:0 -47px}.input-tp1{width:240px;height:30px;line-height:30px;border:1px solid #b9bcbe;text-indent:5px;box-shadow:inset 0 1px 3px #e7e7e7;color:#cccccc}.input-tp2{width:336px}.input-tp3{margin-right:6px;width:74px}.input-tp4{width:56px}
+@charset "UTF-8";
+/* line 2, ../sass/_rest.scss */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+/* line 3, ../sass/_rest.scss */
+html {
+  font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+  font-size: 62.5%; }
+
+/* line 4, ../sass/_rest.scss */
+body {
+  margin: 0;
+  height: 100%;
+  -webkit-overflow-scrolling: touch; }
+
+/* line 5, ../sass/_rest.scss */
+ol, ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+/* line 6, ../sass/_rest.scss */
+a {
+  text-decoration: none; }
+
+/* line 7, ../sass/_rest.scss */
+i, em, strong, span, address {
+  font-style: normal; }
+
+/* line 8, ../sass/_rest.scss */
+h1, h2 {
+  font-size: 1.4em; }
+
+/* line 9, ../sass/_rest.scss */
+h3, h4 {
+  font-size: 1.4em; }
+
+/* line 10, ../sass/_rest.scss */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word; }
+
+/* line 11, ../sass/_rest.scss */
+.cf:before, .cf:after {
+  content: "";
+  display: table; }
+
+/* line 12, ../sass/_rest.scss */
+.cf:after {
+  clear: both; }
+
+/* For IE 6/7 (trigger hasLayout) */
+/* line 13, ../sass/_rest.scss */
+.cf {
+  zoom: 1; }
+
+/* line 14, ../sass/_rest.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+/* line 15, ../sass/_rest.scss */
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+/* line 14, ../sass/index.scss */
+.left-nav-list li {
+  -webkit-transition: all .3s ease-in-out 0s;
+  -moz-transition: all .3s ease-in-out 0s;
+  -ms-transition: all .3s ease-in-out 0s;
+  -o-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s; }
+
+/* line 74, icon1/*.png */
+.icon1-sprite, .nav-item .gift, .nav-item .more, .footer .icon-wb, .footer .icon-wx, .buy-btn::before {
+  background: url('../images/icon1-sacd030e82b.png') no-repeat; }
+
+/* line 21, ../sass/index.scss */
+body {
+  background: whitesmoke;
+  color: black; }
+
+/* line 25, ../sass/index.scss */
+a {
+  color: black; }
+
+/* line 27, ../sass/index.scss */
+.wrap {
+  margin: 0 auto;
+  width: 1258px;
+  overflow: hidden; }
+
+/*通用头部开始*/
+/* line 32, ../sass/index.scss */
+.top-head {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 64px;
+  background: #010101;
+  background-image: linear-gradient(90deg, #010101, #898989);
+  overflow: hidden; }
+  /* line 41, ../sass/index.scss */
+  .top-head em {
+    padding-left: 16px;
+    float: left;
+    font-size: 1.8em;
+    line-height: 3.556em; }
+    /* line 46, ../sass/index.scss */
+    .top-head em a {
+      color: #ffffff; }
+
+/* line 50, ../sass/index.scss */
+.nav-item {
+  padding-right: 36px;
+  float: right; }
+  /* line 53, ../sass/index.scss */
+  .nav-item li {
+    margin-left: 30px;
+    height: 64px;
+    float: right;
+    color: #ffffff; }
+    /* line 58, ../sass/index.scss */
+    .nav-item li a {
+      color: #ffffff;
+      font-size: 1.6em;
+      line-height: 4em; }
+  /* line 63, ../sass/index.scss */
+  .nav-item .gift {
+    padding-right: 4px;
+    margin-top: 24px;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background-position: 0 -71px; }
+  /* line 71, ../sass/index.scss */
+  .nav-item .more {
+    padding-right: 4px;
+    margin-top: 24px;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background-position: 0 -87px; }
+  /* line 79, ../sass/index.scss */
+  .nav-item .user-name {
+    margin-left: 10px; }
+  /* line 82, ../sass/index.scss */
+  .nav-item .user-pic {
+    margin-top: 14px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #393939;
+    border-radius: 50%;
+    background: #ffffff;
+    overflow: hidden; }
+    /* line 90, ../sass/index.scss */
+    .nav-item .user-pic a {
+      line-height: 2em; }
+    /* line 91, ../sass/index.scss */
+    .nav-item .user-pic img {
+      width: 100%; }
+
+/*通用头部结束*/
+/*通用尾部开始*/
+/* line 98, ../sass/index.scss */
+.footer {
+  position: relative;
+  height: 168px;
+  background: #000000;
+  overflow: hidden; }
+  /* line 103, ../sass/index.scss */
+  .footer p {
+    color: #bbb;
+    text-align: center; }
+    /* line 106, ../sass/index.scss */
+    .footer p a {
+      color: #bbb; }
+  /* line 110, ../sass/index.scss */
+  .footer .footer-p1 {
+    margin-top: 28px;
+    height: 38px;
+    font-size: 1.4em;
+    line-height: 4em; }
+  /* line 116, ../sass/index.scss */
+  .footer .footer-p2 {
+    height: 38px;
+    font-size: 1.4em;
+    line-height: 3em; }
+  /* line 121, ../sass/index.scss */
+  .footer .footer-p3 {
+    margin-top: 30px;
+    height: 26px;
+    font-size: 1.2em;
+    line-height: 2em; }
+  /* line 127, ../sass/index.scss */
+  .footer .icon-wb {
+    width: 29px;
+    height: 24px;
+    display: inline-block;
+    background-position: 0 0; }
+  /* line 133, ../sass/index.scss */
+  .footer .icon-wx {
+    margin-left: 40px;
+    width: 32px;
+    height: 24px;
+    display: inline-block;
+    background-position: 0 -23px; }
+
+/*通用尾部结束*/
+/*左侧浮动栏*/
+/* line 144, ../sass/index.scss */
+.left-nav {
+  *float: left;
+  position: fixed;
+  z-index: 9999;
+  top: 72px;
+  width: 82px; }
+
+/* line 152, ../sass/index.scss */
+.left-nav-list li {
+  margin-bottom: 3px;
+  width: 126px;
+  height: 126px;
+  opacity: .8; }
+  /* line 158, ../sass/index.scss */
+  .left-nav-list li img {
+    width: 100%; }
+  /* line 160, ../sass/index.scss */
+  .left-nav-list li:hover {
+    opacity: 1; }
+/* line 164, ../sass/index.scss */
+.left-nav-list a {
+  font-size: 3.4em;
+  line-height: 3.706em;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  height: 82px;
+  display: block; }
+/* line 173, ../sass/index.scss */
+.left-nav-list .first-bk {
+  background: #000; }
+
+/*左侧浮动栏结束*/
+/*首页列表部分*/
+/* line 180, ../sass/index.scss */
+.list-wrap {
+  position: relative;
+  top: 70px;
+  margin-left: 138px;
+  padding-bottom: 170px;
+  overflow: hidden; }
+
+/* line 187, ../sass/index.scss */
+.main-list {
+  overflow: hidden; }
+  /* line 189, ../sass/index.scss */
+  .main-list li {
+    position: relative;
+    margin: 0 2px 8px;
+    float: left;
+    width: 32.5%;
+    height: 552px;
+    overflow: hidden;
+    background: #fff; }
+  /* line 197, ../sass/index.scss */
+  .main-list .main-list-img {
+    height: 360px; }
+    /* line 199, ../sass/index.scss */
+    .main-list .main-list-img img {
+      width: 100%; }
+  /* line 202, ../sass/index.scss */
+  .main-list .main-list-info {
+    position: relative;
+    top: -66px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+    width: 83%;
+    background: #ffffff; }
+    /* line 210, ../sass/index.scss */
+    .main-list .main-list-info header {
+      font-size: 3em; }
+    /* line 213, ../sass/index.scss */
+    .main-list .main-list-info p {
+      margin: 10px 0;
+      font-size: 14px;
+      line-height: 1.8em;
+      color: #999999; }
+
+/*首页列表部分结束*/
+/*show页 内容部分*/
+/* line 224, ../sass/index.scss */
+.show-wrap {
+  position: relative;
+  top: 70px;
+  width: 100%;
+  margin-left: 138px;
+  padding-bottom: 170px;
+  overflow: hidden; }
+
+/* line 232, ../sass/index.scss */
+.show-content {
+  width: 59%;
+  overflow: hidden; }
+  /* line 235, ../sass/index.scss */
+  .show-content h1 {
+    margin: 22px 0;
+    font-size: 5.6em;
+    line-height: 1.4em;
+    font-weight: normal; }
+  /* line 241, ../sass/index.scss */
+  .show-content .price {
+    height: 40px;
+    font-size: 2em;
+    line-height: 2em;
+    color: #cc9966; }
+  /* line 246, ../sass/index.scss */
+  .show-content p {
+    font-size: 1.8em;
+    color: #999999;
+    line-height: 1.5em; }
+  /* line 250, ../sass/index.scss */
+  .show-content img {
+    margin: 10px 0;
+    width: 100%; }
+
+/* line 254, ../sass/index.scss */
+.buy-item {
+  position: fixed;
+  z-index: 9999;
+  top: 72px;
+  right: 0;
+  width: 338px;
+  padding: 12px 15px;
+  min-height: 500px;
+  background: #ffffff; }
+
+/* line 264, ../sass/index.scss */
+.buy-item-tt {
+  height: 100px;
+  overflow: hidden; }
+  /* line 267, ../sass/index.scss */
+  .buy-item-tt span {
+    float: left;
+    width: 100px;
+    height: 100px;
+    overflow: hidden; }
+    /* line 272, ../sass/index.scss */
+    .buy-item-tt span img {
+      width: 100%; }
+  /* line 275, ../sass/index.scss */
+  .buy-item-tt h2 {
+    padding-left: 10px;
+    height: 40px;
+    font-size: 2em;
+    font-weight: normal;
+    line-height: 40px;
+    overflow: hidden; }
+  /* line 282, ../sass/index.scss */
+  .buy-item-tt em {
+    float: left;
+    padding-left: 10px;
+    font-size: 1.2em;
+    height: 20px;
+    line-height: 20px;
+    color: #cc9966; }
+  /* line 290, ../sass/index.scss */
+  .buy-item-tt i {
+    float: left;
+    padding-left: 10px;
+    width: 228px;
+    height: 38px;
+    font-size: 12px;
+    color: #999999;
+    line-height: 1.8em; }
+
+/* line 300, ../sass/index.scss */
+.buy-form {
+  padding-top: 24px;
+  overflow: hidden; }
+  /* line 303, ../sass/index.scss */
+  .buy-form p {
+    margin-bottom: 12px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 1.4em;
+    color: #666666; }
+    /* line 309, ../sass/index.scss */
+    .buy-form p em {
+      padding-left: 10px;
+      color: #cc9966; }
+  /* line 313, ../sass/index.scss */
+  .buy-form .buy-third-p {
+    margin-bottom: 5px; }
+
+/* line 318, ../sass/index.scss */
+.buy-first-p label {
+  padding-right: 5px; }
+/* line 320, ../sass/index.scss */
+.buy-first-p .tool {
+  margin: 0 4px;
+  width: 12px;
+  height: 12px;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  font-weight: bolder;
+  display: inline-block;
+  border: 1px solid #b9bcbe;
+  font-family: 'tahoma';
+  cursor: pointer; }
+/* line 333, ../sass/index.scss */
+.buy-first-p .tool2 {
+  margin-left: 8px; }
+
+/* line 338, ../sass/index.scss */
+.buy-btn {
+  position: relative;
+  width: 100%;
+  height: 58px;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Microsoft Yahei";
+  font-weight: normal;
+  background-color: #fa3471; }
+  /* line 347, ../sass/index.scss */
+  .buy-btn::before {
+    content: '';
+    width: 25px;
+    height: 24px;
+    position: absolute;
+    top: 18px;
+    left: 50px;
+    display: block;
+    background-position: 0 -47px; }
+
+/* line 358, ../sass/index.scss */
+.input-tp1 {
+  width: 240px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #b9bcbe;
+  text-indent: 5px;
+  box-shadow: inset 0 1px 3px #e7e7e7;
+  color: #cccccc; }
+
+/* line 367, ../sass/index.scss */
+.input-tp2 {
+  width: 336px; }
+
+/* line 369, ../sass/index.scss */
+.input-tp3 {
+  margin-right: 6px;
+  width: 74px; }
+
+/* line 372, ../sass/index.scss */
+.input-tp4 {
+  width: 56px; }
+
+/* line 375, ../sass/index.scss */
+.aside-list-wrap {
+  width: 59%;
+  overflow: hidden; }
+
+/* line 379, ../sass/index.scss */
+.aside-list {
+  overflow: hidden; }
+  /* line 381, ../sass/index.scss */
+  .aside-list li {
+    margin-right: 9px;
+    float: left;
+    width: 32.5%;
+    height: 370px;
+    background: #ffffff; }
+    /* line 387, ../sass/index.scss */
+    .aside-list li:last-of-type {
+      margin-right: 0; }
+  /* line 389, ../sass/index.scss */
+  .aside-list .aside-list-last-li {
+    margin-right: 0; }
+  /* line 392, ../sass/index.scss */
+  .aside-list .aside-list-img {
+    height: 234px; }
+    /* line 394, ../sass/index.scss */
+    .aside-list .aside-list-img img {
+      width: 100%; }
+  /* line 396, ../sass/index.scss */
+  .aside-list .aside-list-info {
+    position: relative;
+    top: -44px;
+    padding: 4.7%;
+    margin: 0 5% 0 5%;
+    width: 83%;
+    background: #ffffff; }
+    /* line 403, ../sass/index.scss */
+    .aside-list .aside-list-info header {
+      font-size: 2em; }
+    /* line 406, ../sass/index.scss */
+    .aside-list .aside-list-info .price {
+      padding-top: 10px;
+      font-size: 1.6em;
+      line-height: 1.6em;
+      color: #cc9966; }
+    /* line 411, ../sass/index.scss */
+    .aside-list .aside-list-info p {
+      font-size: 1.2em;
+      line-height: 1.8em;
+      color: #999999; }
+
+/* line 417, ../sass/index.scss */
+.block-item {
+  width: 80%;
+  height: 60px;
+  overflow: hidden; }
+
+/*show页 内容部分结束*/
+
 /*@ sourceMappingURL=index.css.map */
