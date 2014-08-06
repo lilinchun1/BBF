@@ -512,12 +512,13 @@ a{
 }
 .indent-wrap-left{
   float: left;
-  width: 61.4%;
+  width: 47.96875%;
   overflow: hidden;
 }
 .indent-wrap-right{
-  float: right;
-  width: 36.8%;
+  float: left;
+  margin-left: 18px;
+  width: 28.75%;
   overflow: hidden;
 }
 .indent-wrap-left-item{
@@ -549,7 +550,7 @@ a{
 .input-textarea{
   margin-left: 22px;
   padding: 10px;
-  width: 92.1824%;
+  width: 90%;
   height: 30px;
   border: 1px solid $border-color;
 }
@@ -566,7 +567,7 @@ a{
   padding: 12px 0 0 42px;
   overflow: hidden;
   li{
-    margin-right: 46px;
+    margin-right: 38px;
     float: left;
     @extend %pay-list;
     &:hover{
@@ -590,4 +591,57 @@ a{
 }
 .mgt20{
   margin-top: 20px;}
+.indent-wrap-left-info{
+  margin: 40px 0 0 22px;
+  overflow: hidden;
+  .jia-hao,.jian-hao{
+    margin: 7px 5px 0 0;
+    float: left;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+  }
+  .jia-hao{
+    @include icon1-sprite(jia);
+  }
+  .jian-hao{
+    @include icon1-sprite(jian);
+  }
+    dt{
+      height: 30px;
+      line-height: 30px;
+      font-weight: bold;
+      font-size: 1.4em;
+    }
+  .red-bag{
+    margin-bottom: 10px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 1.4em;}
+  label{
+    margin-right: 10px;
+    font-size: 1em;}
+  .input-text{
+    width: 116px;
+    height: 28px;
+    text-indent: 4px;
+    border: 1px solid $border-color;
+  }
+  .ck-btn{
+    width: 84px;
+    height: 30px;
+    background: #333333;
+    color: #ffffff;
+    @extend %trans;
+    cursor: pointer;
+      &:hover{
+        opacity: .9;
+      }
+  }
+  .invoice-info {
+    padding: 10px;
+    font-size: 1.4em;
+
+  }
+}
 /*indent页 结束*/
