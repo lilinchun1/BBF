@@ -11,6 +11,13 @@ $n-font-money:#cc9966; //金额颜色
 $main-mgl:138px;  //主体距离左侧距离
 $border-color:#b9bcbe;//输入框颜色
 $aside-li-mgr:9px;  //内容页底部列表margin-right
+%wrap{
+  position: relative;
+  top: $top-head-height + 6;
+  width: 100%;
+  margin-left: $main-mgl;
+  overflow: hidden;
+}
 %aside-bock-a{
   display: block;
   font-size: 1.2em;
@@ -183,11 +190,9 @@ a{
 
 /*首页列表部分*/
 .list-wrap {
-  position: relative;
-  top: $top-head-height + 6;
-  margin-left: $main-mgl;
+  @extend %wrap;
   padding-bottom: 170px;
-  overflow: hidden;
+
 }
 .main-list{
   overflow: hidden;
@@ -227,12 +232,8 @@ a{
 
 /*show页 内容部分*/
 .show-wrap{
-  position: relative;
-  top: 70px;
-  width: 100%;
-  margin-left: $main-mgl;
+  @extend %wrap;
   padding-bottom: 70px;
-  overflow: hidden;
 }
 .show-content{
   width: 59%;
@@ -494,3 +495,51 @@ a{
   }
 }
 /*show页 内容部分结束*/
+
+/*indent页 开始*/
+.indent-wrap{
+  @extend %wrap;
+  padding-bottom: 70px;
+}
+.indent-wrap-left{
+  float: left;
+  width: 61.4%;
+  overflow: hidden;
+}
+.indent-wrap-right{
+  float: right;
+  width: 36.8%;
+  overflow: hidden;
+}
+.indent-wrap-left-item{
+  width: 100%;
+  padding-bottom: 50px;
+  background: #fdfdfd;
+  overflow: hidden;
+    h2{
+      height: 36px;
+      line-height: 36px;
+      font-size: 1.4em;
+      color: #666666;
+      font-weight: normal;
+      text-indent: 14px;
+      background: #ebebeb;}
+    p{
+      height: 42px;
+      line-height: 42px;
+    }
+}
+.input-ck{
+  margin: 14px 6px 0 22px;
+  float: left;
+  width: 14px;
+  height: 14px;
+}
+.input-textarea{
+  margin-left: 22px;
+  padding: 10px;
+  width: 92.1824%;
+  height: 30px;
+  border: 1px solid $border-color;
+}
+/*indent页 结束*/
