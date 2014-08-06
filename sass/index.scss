@@ -10,7 +10,16 @@ $n-font-color2:#999; //默认字体颜色2
 $n-font-money:#cc9966; //金额颜色
 $main-mgl:138px;  //主体距离左侧距离
 $border-color:#b9bcbe;//输入框颜色
+$border-color2:#eeeeee;//输入框颜色2
 $aside-li-mgr:9px;  //内容页底部列表margin-right
+%pay-list{
+  margin-bottom: 27px;
+  width: 150px;
+  height: 50px;
+  outline: 1px solid $border-color2;
+  overflow: hidden;
+  cursor: pointer;
+}//支付页面列表
 %wrap{
   position: relative;
   top: $top-head-height + 6;
@@ -528,6 +537,8 @@ a{
       height: 42px;
       line-height: 42px;
     }
+  label{
+    font-size: 1.2em;}
 }
 .input-ck{
   margin: 14px 6px 0 22px;
@@ -542,4 +553,41 @@ a{
   height: 30px;
   border: 1px solid $border-color;
 }
+.payment{
+  padding: 32px 0 0 42px;
+  overflow: hidden;
+  dt{
+    @extend %pay-list;
+    &:hover{
+      outline: 2px solid #ff5426;}
+  }
+}
+.indent-bank-list{
+  padding: 12px 0 0 42px;
+  overflow: hidden;
+  li{
+    margin-right: 46px;
+    float: left;
+    @extend %pay-list;
+    &:hover{
+      outline: 2px solid #ff5426;}
+  }
+}
+.indent-wrap-left-item .active-pay{
+  position: relative;
+  outline: 2px solid #ff5426;
+    &::after{
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      right: -1px;
+      width: 21px;
+      height: 21px;
+      display: block;
+      overflow: hidden;
+      @include icon1-sprite(active);
+    }
+}
+.mgt20{
+  margin-top: 20px;}
 /*indent页 结束*/
