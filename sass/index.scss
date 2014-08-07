@@ -23,7 +23,7 @@ $aside-li-mgr:9px;  //内容页底部列表margin-right
 %wrap{
   position: relative;
   top: $top-head-height + 6;
-  width: 100%;
+  width: 89.941%;
   margin-left: $main-mgl;
   overflow: hidden;
 }
@@ -101,16 +101,16 @@ a{
     margin-left: 10px;
   }
   .user-pic{
-    margin-top: 14px;
-    width: 30px;
-    height: 30px;
+    margin-top: 6px;
+    width: 50px;
+    height: 50px;
     border: 2px solid #393939;
     border-radius: 50%;
-    background: #ffffff;
+    background: #000;
     overflow: hidden;
     a{line-height: 2em;}
       img{
-        width: 100%;}
+        width: 101%;}
   }
 }
 /*通用头部结束*/
@@ -199,8 +199,8 @@ a{
 
 /*首页列表部分*/
 .list-wrap {
-  @extend %wrap;
   padding-bottom: 170px;
+  @extend %wrap;
 
 }
 .main-list{
