@@ -508,6 +508,7 @@ a{
 /*indent页 开始*/
 .indent-wrap{
   @extend %wrap;
+  width: 100%;
   padding-bottom: 70px;
 }
 .indent-wrap-left{
@@ -569,8 +570,10 @@ a{
     @extend %pay-list;
     border: 1px solid $border-color2 \9;
     &:hover{
-      border: 1px solid #ff5426 \9;
-      outline: 2px solid #ff5426;}
+      /*border: 1px solid #ff5426 \9;
+      outline: 2px solid #ff5426;*/
+      opacity: .9;
+    }
   }
 }
 .indent-bank-list{
@@ -582,8 +585,9 @@ a{
     border: 1px solid $border-color2 \9;
     @extend %pay-list;
     &:hover {
-      border: 1px solid #ff5426 \9;
-      outline: 2px solid #ff5426;
+      /*border: 1px solid #ff5426 \9;
+      outline: 2px solid #ff5426;*/
+      opacity: .9;
     }
   }
 }
@@ -748,3 +752,49 @@ a{
   }
 }
 /*indent页 结束*/
+
+/*login页 开始*/
+.login{
+  position: relative;
+  margin: 150px auto;
+  width: 400px;
+  //overflow: hidden;
+  background: #ffffff;}
+.login-tab-tt {
+  height: 61px;
+  background: #333333;
+    .active-log{
+      background: #ffffff;
+      color: #000000;
+    }
+}
+.register,.log-in{
+  float: left;
+  margin-top: 3px;
+  width: 200px;
+  height: 58px;
+  font-size: 2.4em;
+  line-height: 58px;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+.register-content{
+  padding: 32px 0 42px 0;
+}
+.login-input-text {
+  margin: 0 auto 14px auto;
+  width: 87.5%;
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  font-size: 18px;
+  text-indent: 16px;
+  border: 1px solid $border-color;
+  box-shadow: inset 0 1px 3px #e3e3e3;
+}
+.login-btn{
+  width: 350px;
+  height: 60px;
+  background: #333333;}
+/*login页 结束*/
