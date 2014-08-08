@@ -36,6 +36,9 @@
     </div>
     <script>
         window.onload=function(){
+            if(!document.getElementById('j-register') && !document.getElementById('j-login') && !document.getElementById('j-register-con') && !document.getElementById('j-login-con')){
+                return false
+            }
             var BtnReg =document.getElementById('j-register');
             var BtnLog =document.getElementById('j-login');
             var BtnRegCon =document.getElementById('j-register-con');
